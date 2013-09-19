@@ -1,4 +1,4 @@
-# -*- coding: utf8 -*-
+# -*- coding: cp949 -*-
 import ftplib
 import os
 import zipfile
