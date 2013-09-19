@@ -20,8 +20,8 @@ def sendftp(spath, sfilename):
 
 if __name__ == '__main__':
     path="D:\\"
-    filename ="file"
-    zip = zipfile.ZipFile(path+""+filename+".zip", 'w')
-    zipdir(path+""+filename, zip)
+    dirname ="file"
+    zip = zipfile.ZipFile(path+""+dirname+".zip", 'w')
+    zipdir(path+""+dirname, zip)
     zip.close()
-    sendftp(path, filename)
+    sendftp(path, dirname)
